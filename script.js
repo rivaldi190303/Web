@@ -7,12 +7,8 @@ function submitForm(event) {
       nama: document.getElementById('nama').value,
       angkatan: document.getElementById('angkatan').value,
       jurusan: document.getElementById('jurusan').value
-    };
-
-  // You can perform further actions with the form data here,
-  // such as sending it to a server using AJAX or processing it locally
-
-  // For this example, let's just log the form data to the console
+    }; 
+  // tjis is the example, let's just log the form data to the console
   console.log(formData);
 }
 
